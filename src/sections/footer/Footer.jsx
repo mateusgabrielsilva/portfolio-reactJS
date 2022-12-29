@@ -2,7 +2,11 @@ import './footer.css';
 
 const Footer = () => {
   return (
-    <footer><h2>Footer</h2></footer>
+    <footer>
+      <div className="footer__profile">
+        <h6>Desenvolvido por <span>Mateus Gabriel</span> - 2022</h6>
+      </div>
+      </footer>
   )
 }
 

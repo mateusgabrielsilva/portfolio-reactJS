@@ -1,0 +1,42 @@
+.floating__icons {
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;  
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.floating__profile {
+    gap: 1rem;
+}
+
+.floating__profile a {
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    color: var(--color-light);
+    font-size: 1.2rem;
+}
+
+.floating__profile a:hover {
+    color: var(--color-blue);
+}
+
+.floating__profile a.active {
+    color: var(--color-blue);
+}
+
+@media screen and (max-width: 1024px) {
+    .floating__icons {
+        display: block;
+    }
+}

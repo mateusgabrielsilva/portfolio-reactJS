@@ -9,7 +9,7 @@
 }
 
 :root {
-    --primary-hue: 270;
+    --primary-hue: 550;
     --black-lightness: 15%;
     --dark-lightness: 44%;
     --light-lightness: 94%;
@@ -19,6 +19,10 @@
     --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
     --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
     --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+    --color-gray: #7d8da1;
+    --color-blue: #0057FF;
+    --background-dark: #121212;
+    --background-dark-one: #151515;
 
     /* General container variables */
     --container-width-lg: 76%;
@@ -73,7 +77,7 @@ section > p {
 
 /* General section styles */
 a {
-    color: var(--color-white);
+    color: var(--color-black);
     transition: var(--transition);
 }
 
@@ -153,4 +157,60 @@ img {
     background: transparent;
     border-color: var(--color-primary);
     color: var(--color-primary);
+}
+
+.btn.sm {
+    padding: 0.5rem 1.2rem;
+}
+
+/* Media queries (tablets) */
+@media screen and (max-width: 1024px) {
+    body {
+        font-size: 1rem;
+    }
+
+    .container {
+        width: var(--container-width-md);
+    }
+
+    section {
+        padding: 8rem 0;
+    }
+
+    section > p {
+        width: 72%;
+        margin-bottom: 3rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+/* Media queries (phones) */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2.4rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 0.6rem 1.5rem;
+    }
+
+    section > p {
+        width: var(--container-width-md);
+    }
+
 }

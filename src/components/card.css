@@ -1,0 +1,21 @@
+.card {
+    background: var(--color-light);
+    border-radius: var(--border-radius-2);
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.card:hover {
+    background: transparent;
+    border: 2px solid transparent;
+    border-color: var(--color-light);
+}
+
+.card.light {
+    background: var(--color-light);
+}
+
+.card.light:hover {
+    background: transparent;
+    border-color: var(--color-light);
+}
