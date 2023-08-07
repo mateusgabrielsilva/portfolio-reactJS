@@ -12,7 +12,7 @@ export const Header = () => {
             <h1>Mateus Gabriel</h1>
             <h4>Web and Mobile Developer</h4>
             <div className="header__button">
-              <a href='https://www.linkedin.com/in/mateus-gabriel-8a4a92172/' target="_blank" className='btn__header'> Linkedin </a>
+              <a href='https://api.whatsapp.com/send?phone=5512996751672&text=Ol%C3%A1%20Mateus,%20gostaria%20de%20saber%20mais%20a%20respeito%20do%20desenvolvimento%20de%20sites%20e%20aplicativos.%20' target="_blank" className='btn__header'> Whatsapp </a>
               <a href='https://github.com/mateusgabrielsilva' target="_blank" className='btn__header'> Github</a>
             </div>
           </div>

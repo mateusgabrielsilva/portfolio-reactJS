@@ -22,6 +22,11 @@
 
 .about__text h3 {
     text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.about__text p {
+    margin-bottom: 1rem;
 }
 
 /* Media queries (phones) */
